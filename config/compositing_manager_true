@@ -3,3 +3,6 @@ gconftool-2 -s '/apps/metacity/general/compositing_manager' --type bool true
 
 # para não exibir miniaturas na troca de janelas com ALT+TAB
 gconftool-2 -s '/apps/metacity/general/compositing_false' --type bool false
+
+# para configuração em modo gráfico
+gconf-editor /apps/metacity
