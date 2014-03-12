@@ -1,1 +1,5 @@
+# para habilitar transparência no GNOME Terminal
 gconftool-2 -s '/apps/metacity/general/compositing_manager' --type bool true
+
+# para não exibir miniaturas na troca de janelas com ALT+TAB
+gconftool-2 -s '/apps/metacity/general/compositing_false' --type bool false
