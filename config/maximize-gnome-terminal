@@ -1,0 +1,8 @@
+#
+# edit the shortcut file
+#
+sudo gedit /usr/share/applications/gnome-terminal.desktop
+
+#
+# add "--window --maximize" after Exec=gnome-terminal 
+#
